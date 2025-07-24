@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://x7jopgpm2q88"]
+
+[ext_resource type="Script" uid="uid://djn8lfp3xeb0k" path="res://game.gd" id="1_80nbo"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_80nbo")
+
+[node name="GenerateButton" type="Button" parent="."]
+unique_name_in_owner = true
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Generate"
+
+[node name="TimerLabel" type="Label" parent="."]
+unique_name_in_owner = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 171.0
+offset_top = 4.0
+offset_right = 216.0
+offset_bottom = 27.0
+grow_horizontal = 2
+size_flags_horizontal = 0
+text = "Timer"
+horizontal_alignment = 1
